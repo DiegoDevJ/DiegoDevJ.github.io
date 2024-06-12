@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz</h1>
+        <form id="quizForm">
+            <label for="q1">Dia do nosso primeiro encontro:</label>
+            <input type="text" id="q1" name="q1" placeholder="DD/MM/AAAA" required>
+            
+            <label for="q2">Primeira vez que saímos juntos:</label>
+            <input type="text" id="q2" name="q2" placeholder="DD/MM/AAAA" required>
+            
+            <label for="q3">Uma data semelhante de nós:</label>
+            <input type="text" id="q3" name="q3" placeholder="DD/MM/AAAA" required>
+            
+            <button type="button" onclick="checkAnswers()">Enviar</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
