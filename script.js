@@ -22,7 +22,7 @@ function checkAnswers() {
 
     const resultElement = document.getElementById('result');
     if (allCorrect) {
-        resultElement.innerHTML = 'Aeeeeeeee  <a href="file:///C:/Users/mateu/Downloads/Namorados/Te%20amoo/index.html#">Clique aqui para ir ao site final</a>.';
+        resultElement.innerHTML = 'Aeeeeeeee  <a href="Te amoo/index.html">Clique aqui para ir ao site final</a>.';
         resultElement.style.color = 'green';
     } else {
         resultElement.innerHTML = 'Errou 😒 Bora tentar mais uma vez';
